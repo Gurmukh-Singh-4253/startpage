@@ -1,0 +1,29 @@
+html, body {
+  background-color: #D8B9AF;
+  color: #4D3630;
+}
+
+img {
+  box-shadow:
+    0 0 25px 25px #4D3630;
+}
+
+@keyframes example {
+  from {
+  box-shadow:
+    0 0 500px 1500px #4D3630;
+  }
+  to {
+  box-shadow:
+    0 0 25px 25px #4D3630;
+  }
+}
+
+a {
+  color: #4D3630;
+}
+
+a:hover {
+  text-shadow: 0 0 10px #4D3630;
+  color: #4D3630;
+}
