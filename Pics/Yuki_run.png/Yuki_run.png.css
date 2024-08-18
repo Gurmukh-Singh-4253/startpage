@@ -9,13 +9,15 @@ img {
 }
 
 @keyframes example {
-  from {
-  box-shadow:
-    0 0 500px 1500px #E1DAD9;
+  0% {
+  transform:
+    translateX(-100px);
+    opacity: 0;
   }
-  to {
-  box-shadow:
-    0 0 25px 25px #E1DAD9;
+  100% {
+  transform:
+    translateX(0px);
+    opacity: 1;
   }
 }
 

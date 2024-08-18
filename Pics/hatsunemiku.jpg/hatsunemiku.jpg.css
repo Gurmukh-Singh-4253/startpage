@@ -1,11 +1,11 @@
 html, body {
-  background-color: #6F594D;
-  color: #E7D0BB;
+  background-color: #c1d8de;
+  color: #2d4d5e;
 }
 
 img {
   box-shadow:
-    0 0 25px 25px #E7D0BB;
+    0 0 25px 25px #2d4d5e;
 }
 
 @keyframes example {
@@ -22,10 +22,10 @@ img {
 }
 
 a {
-  color: #E7D0BB;
+  color: #2d4d5e;
 }
 
 a:hover {
-  text-shadow: 0 0 10px #E7D0BB;
-  color: #E7D0BB;
+  text-shadow: 0 0 10px #2d4d5e;
+  color: #2d4d5e;
 }
